@@ -1,0 +1,118 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "JAVA.Pattern.Main",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchCode",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.BinarySearchCode",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.CharStringQuestion.Palindrome",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.CharStringQuestion.ReverseString",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "MoveNegative",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.MoveNegative",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "Union",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.Union",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "UniqueElement",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.UniqueElement",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "swapAlternate",
+            "request": "launch",
+            "mainClass": "JAVA.JavaCode.swapAlternate",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "RecursionExample",
+            "request": "launch",
+            "mainClass": "RecursionExample",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "SayDigits",
+            "request": "launch",
+            "mainClass": "SayDigits",
+            "projectName": "DSA_39730605"
+        },
+        {
+            "type": "java",
+            "name": "isSorted",
+            "request": "launch",
+            "mainClass": "isSorted",
+            "projectName": "DSA_39730605"
+        }
+    ]
+}
